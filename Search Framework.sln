@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Windows Desktop
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Search Framework", "Search Framework\Search Framework.csproj", "{74D0DADC-3F76-4291-926D-D912DDB34879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{830C9329-80F6-4AFF-9566-A22BC23C1FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{424CB459-6E9D-4233-AB07-72995F340AD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74D0DADC-3F76-4291-926D-D912DDB34879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74D0DADC-3F76-4291-926D-D912DDB34879}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74D0DADC-3F76-4291-926D-D912DDB34879}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74D0DADC-3F76-4291-926D-D912DDB34879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C9329-80F6-4AFF-9566-A22BC23C1FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C9329-80F6-4AFF-9566-A22BC23C1FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C9329-80F6-4AFF-9566-A22BC23C1FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C9329-80F6-4AFF-9566-A22BC23C1FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{424CB459-6E9D-4233-AB07-72995F340AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{424CB459-6E9D-4233-AB07-72995F340AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{424CB459-6E9D-4233-AB07-72995F340AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{424CB459-6E9D-4233-AB07-72995F340AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

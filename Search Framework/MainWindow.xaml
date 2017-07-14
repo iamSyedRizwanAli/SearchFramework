@@ -1,0 +1,14 @@
+﻿<Window x:Class="Search_Framework.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Search Framework" Height="426" Width="555.263" ResizeMode="NoResize">
+    <Grid>
+        <Label Content="Welcome to Search Framework" HorizontalAlignment="Left" Margin="143,27,0,0" VerticalAlignment="Top" Height="43" Width="283" FontSize="20"/>
+        <Label Content="SDA Assignment 04" HorizontalAlignment="Left" Margin="393,356,0,0" VerticalAlignment="Top" FontStyle="Italic" FontSize="16"/>
+        <Label Content="Please select the desired category from following options" HorizontalAlignment="Left" Margin="74,75,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Button x:Name="StudentPage_btn" Content="Page 1 - Students" HorizontalAlignment="Left" Margin="174,128,0,0" VerticalAlignment="Top" Width="206" Height="33" FontSize="16" Click="StudentPage_btn_Click" />
+        <Button x:Name="TeacherPage_btn" Content="Page 2 - Teachers" HorizontalAlignment="Left" Margin="174,179,0,0" VerticalAlignment="Top" Width="206" Height="33" FontSize="16" Click="TeacherPage_btn_Click" />
+        <Button x:Name="CoursePage_btn" Content="Page 3 - Courses" HorizontalAlignment="Left" Margin="174,236,0,0" VerticalAlignment="Top" Width="206" Height="33" FontSize="16" Click="CoursePage_btn_Click" />
+
+    </Grid>
+</Window>
